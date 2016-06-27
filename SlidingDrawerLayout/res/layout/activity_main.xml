@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.slidingdrawerlayout.view.SlidingDrawerLayout
+        android:id="@+id/slidingDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/content_bg" >
+
+        <include
+            android:id="@+id/contentView"
+            layout="@layout/content" />
+
+        <include
+            android:id="@+id/bottomView"
+            layout="@layout/bottom" />
+
+        <include
+            android:id="@+id/topView"
+            layout="@layout/top" />
+    </com.slidingdrawerlayout.view.SlidingDrawerLayout>
+
+</RelativeLayout>

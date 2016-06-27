@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="topBarSize">50dp</dimen>
+    <dimen name="bottomBarSize">40dp</dimen>
+
+</resources>

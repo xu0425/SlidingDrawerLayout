@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottomBarSize"
+        android:background="@android:color/holo_blue_dark"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/bottomBtn"
+            android:layout_width="@dimen/bottomBarSize"
+            android:layout_height="@dimen/bottomBarSize"
+            android:background="@drawable/btn_selector"
+            android:padding="5dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/bottom_ico" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="底部菜单"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/submit_selector"
+            android:text="提交"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#7699bb" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="这一大片的内容你可以任意设置"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+    </FrameLayout>
+
+</LinearLayout>
